@@ -1,0 +1,674 @@
+@font-face{
+  font-family: 'Knockout';
+  src: url("../font/Knockout-HTF32-JuniorCruiserwt.otf");
+}
+
+@font-face{
+  font-family: 'Domaine';
+  src: url("../font/DomaineText-Light.otf");
+}
+
+body {
+  min-width: none;
+  min-height: nonepx;
+  background-color: #231F20;
+  font-family: 'Knockout';
+  color: #837451;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.footer p,
+.header p,
+.text-4 p {
+  margin-bottom: 1em;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container .container {
+  height: 215px;
+}
+
+.container .text {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.frame{
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border: 40px solid #817350;
+}
+
+
+
+.fixedcontainer {
+  background: url("../images/Black_Noise_Bground.png");
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  width: 100%;
+  margin: auto;
+}
+
+.text-container{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+.footer {
+  position: absolute;
+  bottom: 80px;
+  right: 80px;
+  width: 120px;
+  height: 87px;
+}
+
+.footer .text {
+  position: relative;
+  min-height: 75px;
+  font-size: 14px;
+  letter-spacing: 8px;
+  color: #817350;
+}
+
+.header {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  width: 120px;
+  height: 87px;
+}
+
+.header .text {
+  position: relative;
+  left: 0;
+  min-height: 75px;
+  font-size: 14px;
+  letter-spacing: 8px;
+  color: #817350;
+}
+
+
+
+.title {
+  position: absolute;
+  top: 47%;
+  left: 25%;
+  height: 225px;
+  margin: auto;
+}
+
+#main-title {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 734px;
+  height: 40px;
+}
+
+.title .text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-height: 39px;
+  margin: 0 auto;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 6px;
+  color: #817350;
+}
+
+.input-section{
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+._input {
+  display: block;
+  width: 42.375%;
+  height: 100px;
+  margin: 0 auto;
+  padding: 0 10px;
+  background-color: #817350;
+  text-align: center;
+}
+
+.input-section p{
+  letter-spacing: 10px;
+  font-size: 14px;
+  color: #817350;
+  margin-bottom: 52px;
+  padding-bottom: 40px;
+}
+
+::-webkit-input-placeholder {
+   color: #333233;
+   letter-spacing:10px;
+   font-size: 18px;
+}
+
+.poem-container{
+ font-family: 'Domaine';
+ margin-bottom: 332px;
+}
+
+.poem-container p{
+  font-size: 12px;
+  line-height: 2.2em;
+  text-align: center;
+
+}
+
+.line-break{
+  margin-bottom: 300px;
+}
+
+.container-1 {
+  height: 2300px;
+  /*margin-top: 80px;*/
+}
+
+.element-1 {
+  position: fixed;
+  z-index: 1;
+  top: 1200px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 1600px;
+  margin: 0 auto;
+  background: url('../images/lerin_andrew.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.element-2 {
+  position: relative;
+  float: left;
+  z-index: 5;
+  width: 100%;
+  margin-top: 3203px;
+  background-color: #231F20;
+}
+
+.element-3 {
+  position: absolute;
+  top: 326px;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  width: 14.0498046875%;
+  height: 178px;
+  margin: 0 auto;
+
+}
+
+.element-4 {
+  width: 80%;
+  height: 1px;
+  margin: 48px auto 0;
+}
+
+.text-4 {
+  width: 52.75%;
+  min-height: 108px;
+  margin: 200px auto;
+  color: #817350;
+  text-align: center;
+}
+
+.text-5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  width: 100%;
+  min-height: 46px;
+  margin: 0 auto;
+  font-size: 0.583em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: #817350;
+}
+
+.bottom-section{
+  position: absolute;
+  margin-top: 200px;
+}
+
+.bottom-left{
+  display: block;
+  margin-left: 80px;
+  position: absolute;
+  text-align: left;
+}
+
+.bottom-center{
+  text-align: center;
+  margin-left: 25%;
+  position: absolute;
+  width: 800px;
+}
+
+.bottom-right{
+  right: 0;
+  display: block;
+  margin-left: 80px;
+  position: absolute;
+  text-align: right;
+}
+
+@media(max-width: 1200px) {
+  body {
+    font-size: 0.563em;
+  }
+
+  .container .container {
+    height: 214px;
+    margin-top: 785px;
+  }
+
+  .fixedcontainer {
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .fixedcontainer .footer,
+  .fixedcontainer .header {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .fixedcontainer .title {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 151px;
+    margin: auto;
+  }
+
+  .footer .text,
+  .header .text {
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 9px;
+    text-align: center;
+  }
+
+  .title #main-title {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 65%;
+    height: auto;
+    margin: auto;
+  }
+
+  .title .text {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 9px;
+  }
+
+  .container ._input {
+    width: 60%;
+    font-size: 1.444em;
+  }
+
+  .container .element-3 {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 14.0494791666%;
+    margin: auto;
+  }
+
+  .container .element-4 {
+    margin-top: 56px;
+  }
+
+  .container .text-4 {
+    float: left;
+    width: 50.9997720389%;
+    margin-top: 40px;
+    margin-right: 0;
+    margin-left: 24.5%;
+    font-size: 12px;
+  }
+
+  .container .text-5 {
+    left: 0;
+    right: auto;
+    font-size: 0.778em;
+  }
+
+  .element .container-1 {
+    float: left;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .element-1 {
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .element-2 {
+    position: relative;
+    z-index: 16;
+    margin-top: 2237px;
+  }
+}
+
+@media(max-width: 640px) {
+  .container .container {
+    float: left;
+    clear: both;
+    margin-top: 397px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .fixedcontainer {
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .fixedcontainer .footer {
+    bottom: 70px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .fixedcontainer .header {
+    top: 70px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .fixedcontainer .title {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .footer .text {
+    left: 0;
+    right: 0;
+    width: 100.625%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .header .text {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .title #main-title {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 70%;
+    height: auto;
+    margin: auto;
+  }
+
+  .title .text {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 0.778em;
+  }
+
+  ._container {
+    height: 800px;
+    margin-top: 2017px;
+  }
+
+  .container .element-3 {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 14.0625%;
+    height: 38px;
+    margin: auto;
+  }
+
+  .container .element-4 {
+    margin-top: 64px;
+  }
+
+  .container .text-4 {
+    float: none;
+    width: 69.6875%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container .text-5 {
+    left: 0;
+    right: 0;
+    width: 67.998046875%;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 2.18;
+  }
+
+  .element .container-1 {
+    height: 760px;
+    margin-top: 40px;
+  }
+
+  .element-1 {
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .element-2 {
+    position: relative;
+    z-index: 16;
+  }
+}
+
+@media(max-width: 375px) {
+  body {
+    font-size: 0.438em;
+  }
+
+  .container .container {
+    position: relative;
+    clear: none;
+    z-index: 14;
+    height: 351px;
+    margin-top: 308px;
+  }
+
+  .container .text {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .fixedcontainer {
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .element-1,
+  .fixedcontainer .footer {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .fixedcontainer .header {
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .fixedcontainer .title {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 127px;
+    margin: auto;
+  }
+
+  .footer .text,
+  .header .text {
+    left: 0;
+    right: 0;
+    width: 99.4117647058%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 7px;
+  }
+
+  .title #main-title {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: auto;
+    margin: auto;
+  }
+
+  .title .text {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 0.714em;
+    letter-spacing: 8px;
+  }
+
+  ._container {
+    height: 670px;
+    margin-top: 1600px;
+  }
+
+  .container ._input {
+    width: 80%;
+    height: 80px;
+    font-size: 1.857em;
+  }
+
+  .container .element-3 {
+    visibility: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 14.0487132352%;
+    margin: auto;
+  }
+
+  .container .element-4 {
+    margin-top: 190px;
+    opacity: 0.5;
+  }
+
+  .container .text-4 {
+    position: absolute;
+    top: 80px;
+    width: 80%;
+    margin-top: 0;
+    font-size: 1.286em;
+  }
+
+  .container .text-5 {
+    width: 75.5514705882%;
+    font-size: 0.714em;
+  }
+
+  .element .container-1 {
+    height: 670px;
+    margin-top: 0;
+  }
+
+  .element-2 {
+    position: relative;
+    z-index: 16;
+  }
+}
